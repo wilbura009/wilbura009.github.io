@@ -3,7 +3,7 @@ title: "Go Installation Guide"
 author: William Burroughs
 description: "A Go installation guide for Linux."
 date: 2023-01-16T20:19:36-06:00
-draft: true
+draft: false
 ---
 
 # Go Installation Guide
