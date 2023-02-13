@@ -1,0 +1,91 @@
+baseURL: 'https://wilbura009.github.io/'
+languageCode: 'en-us'
+title: 'William Burroughs'
+theme: 'PaperMod'
+
+
+enableEmoji: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pygmentsUseClasses: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+menu:
+  main:
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 10
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+
+
+params:
+  # Top of page
+  ShowToc: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  # Adds a Previous / Next post suggestion under a single post
+  #ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  # See https://gohugo.io/content-management/comments/
+  #comments: true
+  # Bottom of page
+  ShowShareButtons: true
+
+
+  homeInfoParams:
+    Title: 'Hi there'
+    Content: 'blah...'
+
+  socialIcons: # optional
+    - name: 'github'
+      url: 'https://github.com/wilbura009'
+    - name: 'email'
+      url: 'url'
+
+
+  markup:
+    goldmark:
+      renderer:
+        unsafe: true
+      highlight:
+        noClasses: false
+
+  privacy:
+    vimeo:
+      disabled: false
+      simple: true
+
+      twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+      instagram:
+        disabled: false
+        simple: true
+
+      youtube:
+        disabled: false
+        privacyEnhanced: true
+
+  services:
+    instagram:
+      disableInlineCSS: true
+      twitter:
+        disableInlineCSS: true
